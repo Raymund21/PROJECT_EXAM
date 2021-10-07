@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8D4B9"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/UPLOAD_DATA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#4F4F4F"
+            android:onClick="SEL_VIEW"
+            android:text="ASYNC DATA"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/Student_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="5dp"
+        android:divider="#eae7e7"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/REG_STUDENT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#4F4F4F"
+            android:onClick="SEL_VIEW"
+            android:text="REGISTER STUDENT"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/REG_RETURN_NEW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#4F4F4F"
+            android:onClick="SEL_VIEW"
+            android:text="LOGOUT"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
